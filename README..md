@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Link](https://github.com/avidworks/fem-interactive-rating-component)
+- Live Site URL: [Link](https://avidworks.github.io/fem-interactive-rating-component/)
 
 ## My process
 
