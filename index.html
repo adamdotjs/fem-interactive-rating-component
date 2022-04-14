@@ -13,57 +13,59 @@
   </head>
 
   <body>
-    <section class="card" id="survey">
-      <div class="stack">
-        <div class="form-icon">
-          <img src="./public/icon-star.svg" alt="" />
-        </div>
-        <h2>How did we do?</h2>
-        <p>
-          Please let us know how we did with your support request. All feedback is appreciated to
-          help us improve our offering!
-        </p>
-        <form class="stack">
-          <div class="survey__scores">
-            <label class="radio-btn" tab>
-              <input type="radio" name="score" value="1" required></input>
-              <span>1</span>
-            </label>
-            <label class="radio-btn">
-              <input type="radio" name="score" value="2"></input>
-              <span>2</span>
-            </label>
-            <label class="radio-btn">
-              <input type="radio" name="score" value="3"></input>
-              <span>3</span>
-            </label>
-            <label class="radio-btn">
-              <input type="radio" name="score" value="4"></input>
-              <span>4</span>
-            </label>
-            <label class="radio-btn">
-              <input type="radio" name="score" value="5"></input>
-              <span>5</span>
-            </label>
+    <main>
+      <section class="card" id="survey">
+        <div class="stack">
+          <div class="form-icon">
+            <img src="./public/icon-star.svg" alt="" />
           </div>
-          <button>Submit</button>
-        </form>
-      </div>
-    </section>
-
-    <section class="card is-hidden" id="confirmation">
-      <div class="stack centered">
-        <div class="confirmation-icon">
-          <img src="./public/illustration-thank-you.svg" alt="" />
+          <h1>How did we do?</h1>
+          <p>
+            Please let us know how we did with your support request. All feedback is appreciated to
+            help us improve our offering!
+          </p>
+          <form class="stack">
+            <div class="survey__scores">
+              <label class="radio-btn" tab>
+                <input type="radio" name="score" value="1" required></input>
+                <span>1</span>
+              </label>
+              <label class="radio-btn">
+                <input type="radio" name="score" value="2"></input>
+                <span>2</span>
+              </label>
+              <label class="radio-btn">
+                <input type="radio" name="score" value="3"></input>
+                <span>3</span>
+              </label>
+              <label class="radio-btn">
+                <input type="radio" name="score" value="4"></input>
+                <span>4</span>
+              </label>
+              <label class="radio-btn">
+                <input type="radio" name="score" value="5"></input>
+                <span>5</span>
+              </label>
+            </div>
+            <button>Submit</button>
+          </form>
         </div>
-        <span class="response">You selected 5 out of 5</span>
-        <h2>Thank you!</h2>
-        <p>
-          We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in
-          touch!
-        </p>
-      </div>
-    </section>
+      </section>
+
+      <section class="card is-hidden" id="confirmation">
+        <div class="stack centered">
+          <div class="confirmation-icon">
+            <img src="./public/illustration-thank-you.svg" alt="" />
+          </div>
+          <span class="response">You selected 5 out of 5</span>
+          <h1>Thank you!</h1>
+          <p>
+            We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in
+            touch!
+          </p>
+        </div>
+      </section>
+    </main>
     <script src="./src/index.js"></script>
   </body>
 

@@ -86,7 +86,7 @@ body {
   line-height: 1.6;
 }
 
-h2 {
+h1 {
   font-size: var(--font-size-heading);
   color: var(--white);
   line-height: 1;
@@ -133,6 +133,10 @@ button:hover {
   padding-inline: var(--space-500);
   padding-block: var(--space-500);
   background-image: radial-gradient(ellipse at top, hsl(215, 20%, 17%), hsl(215, 24%, 12%));
+}
+
+.card p {
+  --space: var(--space-400);
 }
 
 .form-icon {
@@ -212,7 +216,7 @@ button:hover {
   margin-block-start: var(--space-200);
 }
 
-#confirmation h2 {
+#confirmation h1 {
   --space: var(--space-600);
 }
 
